@@ -1,61 +1,61 @@
 body {
     background-color: #f0f0f0;
     font-family: Arial, sans-serif;
-    }
-    
-    .container {
+}
+
+.container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
-    }
-    
-    .header {
+}
+
+.header {
     text-align: center;
     margin-bottom: 20px;
-    }
-    
-    .header_logo {
+}
+
+.header_logo {
     text-decoration: none;
     font-size: 24px;
     color: #333;
-    }
-    
-    .sliders-container {
+}
+
+.sliders-container {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-    
-    .carousel {
+}
+
+.carousel {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
     -webkit-overflow-scrolling: touch;
-    }
-    
-    .carousel img {
+}
+
+.carousel img {
     flex: 0 0 auto;
     width: 100%;
     scroll-snap-align: start;
-    }
-    
-    .pagination {
+}
+
+.pagination {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
-    }
-    
-    .pagination_item {
+}
+
+.pagination_item {
     margin: 0 5px;
-    }
-    
-    .pagination_button {
+}
+
+.pagination_button {
     display: block;
     width: 20px;
     height: 20px;
     background-color: #ccc;
     border-radius: 50%;
     cursor: pointer;
-    }
+}
