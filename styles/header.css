@@ -28,5 +28,10 @@
   display: none;
   position: absolute;
   top: 100%;
-  
+  width: 30vw;
+
+}
+
+.container-botao:checked~.lista-menu {
+   display: block;
 }
