@@ -31,10 +31,11 @@
   width: 30vw;
 
 }
-
-.container_botao:checked~.lista-menu {
-   display: block;
+.container_botao:checked ~.lista-menu{
+    display: block;
 }
+
+
 .lista-menu-titulo,
 .lista-menu-item {
     padding: 1em;
