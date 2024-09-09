@@ -6,74 +6,62 @@
     <title>RAFA FOOD</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="cabecalho">
-      <div class="container">
-        <input type="checkbox" id="menu" class="container_botao">
-        <label for="menu">
-            <span class="cabecalho_menu_hamburguer"></span>
-        </label>
-        <ul class="lista-menu">
-            <li class="lista-menu-titulo">Produtos</li>
-            <li class="lista-menu-item">Boné</li>
-            <li class="lista-menu-item">Camiseta</li>
-        </ul>
-        <img src="fotos/Logo.svg" alt="Logo" class="container_imagem">
-    </div>
-    
+        <div class="container">
+            <input type="checkbox" id="menu" class="container_botao">
+            <label for="menu">
+                <span class="cabecalho_menu_hamburguer"></span>
+            </label>
+            <ul class="lista-menu">
+                <li class="lista-menu-titulo">Produtos</li>
+                <li class="lista-menu-item">Boné</li>
+                <li class="lista-menu-item">Camiseta</li>
+            </ul>
+            <img src="fotos/Logo.svg" alt="Logo" class="container_imagem">
+        </div>
         <div class="container">
             <a href="#"><img src="fotos/Favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-            <a href="#"><img src="fotos/Compras.svg"Carrinho de compras" class="container_imagem"></a>
+            <a href="#"><img src="fotos/Compras.svg" alt="Carrinho de compras" class="container_imagem"></a>
             <a href="#"><img src="fotos/Usuário.svg" alt="Meu perfil" class="container_imagem"></a>
         </div>
-        </header>
+    </header>
 
-        <section class="banner">
-            <img src="fotos/looogo.png" alt="" class="banner-foto">
-            <h2 class="banner-titulo">A melhor de toda a região!</h2>
-            <p class="banner-texto">Estamos localizados na Rua dos Paralelepipedos 500, atendemos das 18h ás 23h</p>
-            <input type="search" class="banner-pesquisa" placeholder="O que procura?"/>
-        </section>
+    <section class="banner">
+        <img src="fotos/looogo.png" alt="" class="banner-foto">
+        <h2 class="banner-titulo">A melhor de toda a região!</h2>
+        <p class="banner-texto">Estamos localizados na Rua dos Paralelepipedos 500, atendemos das 18h ás 23h</p>
+        <input type="search" class="banner-pesquisa" placeholder="O que procura?"/>
+    </section>
 
-        <section class="carrossel">
-            <h2 class="carrossel-titulo">
-                Meus produtos:
-            </h2>
-
-          <div class="swiper">
-              <div class="swiper-wrapper">
-                 
-                  <div class="swiper-slide"><img src="fotos/brusa-14.png" alt="Lanches"/></div>
-                  <div class="swiper-slide"><img src="fotos/brusa-branca.png"Batata Frita"/></div>
-                  <div class="swiper-slide"><img src="fotos/brusa-jaguar.png" alt="Calabresa"/></div>
-                  <div class="swiper-slide"><img src="fotos/bune.png" alt="Bebidas"/></div>
-                  <div class="swiper-slide"><img src="fotos/framingo.png" alt="Drinks"/></div>
-                  <div class="swiper-slide"><img src="fotos/otobune.png" alt="Vegertariano"/> </div>
-                </div>
-        
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-              </div>     
+    <section class="carrossel">
+        <h2 class="carrossel-titulo">Meus produtos:</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="fotos/brusa-14.png" alt="Lanches"/></div>
+                <div class="swiper-slide"><img src="fotos/brusa-branca.png" alt="Batata Frita"/></div>
+                <div class="swiper-slide"><img src="fotos/brusa-jaguar.png" alt="Calabresa"/></div>
+                <div class="swiper-slide"><img src="fotos/bune.png" alt="Bebidas"/></div>
+                <div class="swiper-slide"><img src="fotos/framingo.png" alt="Drinks"/></div>
+                <div class="swiper-slide"><img src="fotos/otobune.png" alt="Vegetariano"/></div>
             </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
 
-        </section>
-
-        
-
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script>
-          const swiper = new Swiper(".swiper", {
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper(".swiper", {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
-              el: ".swiper-pagination",
-              type: "bullets",
+                el: ".swiper-pagination",
+                type: "bullets",
             },
-          });
-        </script>
-   
+        });
+    </script>
 </body>
 </html>
