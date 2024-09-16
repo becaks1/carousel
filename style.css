@@ -3,7 +3,7 @@
 @import url("styles/banner.css");
 
 :root{
-    --cor-de-funfo: rgb(16, 124, 52);
+    --cor-de-funfo: rgb(153, 238, 181);
     --cor-do-cabecalho: rgb(114, 223, 110);
 }
 body{background-color: var(--cor-de-funfo);}
